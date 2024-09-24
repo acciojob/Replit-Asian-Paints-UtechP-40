@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 /* Styling for the grid container */
-#grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
@@ -32,13 +32,13 @@ button {
     cursor: pointer;
 }
 
-#change_button, #Reset {
+#change_button, #reset_button {
     background-color: #0095ff;
     color: white;
     border: none;
     transition: background-color 0.3s ease;
 }
 
-#change_button:hover, #Reset:hover {
+#change_button:hover, #reset_button:hover {
     background-color: #0066cc;
 }

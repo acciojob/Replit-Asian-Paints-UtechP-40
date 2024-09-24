@@ -26,4 +26,4 @@ function changeGridColor() {
 
 // Add event listeners for the Change Color and Reset buttons
 document.getElementById('change_button').addEventListener('click', changeGridColor);
-document.getElementById('Reset').addEventListener('click', resetGridColors);
+document.getElementById('reset_button').addEventListener('click', resetGridColors);
